@@ -7,19 +7,23 @@ class Component
     raise 'Unsupported Operation'
   end
 
-  def projection(idx)
+  def projection
     raise 'Unsupported Operation'
   end
 
-  def condition(idx)
+  def condition
     raise 'Unsupported Operation'
   end
 
-  def join(idx)
+  def join
     raise 'Unsupported Operation'
   end
 
-  def termination(idx)
+  def termination
+    raise 'Unsupported Operation'
+  end
+
+  def to_enum
     raise 'Unsupported Operation'
   end
 end
